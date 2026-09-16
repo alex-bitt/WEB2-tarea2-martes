@@ -1,0 +1,149 @@
+body {
+    background-color: #25d84d;
+    margin: 0;
+    padding: 20px;
+}
+.padre {
+    width: 850px;
+    height: 500px;
+    margin: 20px auto;
+    padding: 10px;
+
+    background-color: #3434b8;
+
+    display: flex;
+    flex-direction: row;
+}
+.izquierda {
+    width: 120px;
+    height: 470px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.derecha {
+    width: 120px;
+    height: 470px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+/* CENTRO */
+
+.centro {
+    width: 400px;
+    height: 450px;
+    padding: 10px;
+    border: 3px solid #dddd55;
+}
+
+
+/* NOMBRE */
+
+.nombre {
+    width: 370px;
+    height: 40px;
+    margin: 0 auto;
+
+    background-color: #9de52b;
+
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+/* CAJA GRANDE */
+
+.caja-grande {
+    width: 370px;
+    height: 100px;
+    margin: 10px auto;
+
+    border: 2px solid #dddd55;
+}
+
+
+/* TRES CAJAS */
+
+.cajas {
+    width: 370px;
+    height: 70px;
+    margin: 10px auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.caja {
+    width: 100px;
+    height: 65px;
+
+    border: 2px solid #dddd55;
+}
+
+
+/* CINCO BOTONES */
+
+.botones {
+    width: 370px;
+    height: 60px;
+    margin: 10px auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.boton {
+    width: 50px;
+    height: 35px;
+
+    background-color: #e77d72;
+
+    text-align: center;
+}
+.circulo {
+    background-color: #e9f5e9;
+    border-radius: 50%;
+}
+.grande {
+    width: 65px;
+    height: 65px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pequeño {
+    width: 40px;
+    height: 40px;
+}
+.punto {
+    width: 18px;
+    height: 18px;
+
+    background-color: #777777;
+
+    border-radius: 50%;
+}
+.pie {
+    width: 850px;
+    height: 60px;
+
+    margin: 0 auto;
+    padding: 10px;
+
+    background-color: #3434b8;
+
+    color: white;
+
+    text-align: center;
+    font-size: 20px;
+}
